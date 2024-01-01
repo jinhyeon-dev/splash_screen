@@ -9,11 +9,11 @@ class HomeScreen extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: Text("Title", style: TextStyle(
+          title: const Text("Title", style: TextStyle(
             color: Colors.white,
           ),),
         ),
-        body: Center(
+        body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [

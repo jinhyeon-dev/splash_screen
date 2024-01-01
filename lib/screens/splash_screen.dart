@@ -45,7 +45,7 @@ class _SplashScreenState extends State<SplashScreen>
             ],
           ),
         ),
-        child: Column(
+        child: const Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
